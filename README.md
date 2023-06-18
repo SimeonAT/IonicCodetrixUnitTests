@@ -8,7 +8,7 @@ This project is written in React and Typescript. All source files reside in the 
 
 After cloning this repository, run:
 
-```
+```bash
 npm run installs
 ```
 
@@ -16,7 +16,7 @@ to install all dependencies.
 
 You can then run
 
-```
+```bash
 npm run test.unit.silent
 ```
 
@@ -28,4 +28,8 @@ In order to run this web application in your browser, you will first need to add
 
 You will need to add your Firebase API keys and secrets in all files in `/unit-tests/demo/src/env`, and in `capacitor.config.ts`.
 
-### Running on iOS and Android
+After doing so, you can now run
+```bash
+npm run dev
+```
+to run the project at `localhost:5173`.
