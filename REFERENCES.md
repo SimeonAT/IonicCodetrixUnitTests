@@ -1,8 +1,13 @@
-https://stackoverflow.com/questions/64690983/web-api-key-is-not-generated-in-firebase-while-creating-a-new-project-as-stated
+# References and Citations
 
-https://dieptheanh.medium.com/react-authentication-with-firebase-and-unit-testing-35f6958e5f7a
+Below is a list of all the helpful resources that I read
+when working on this project.
 
-https://stackoverflow.com/a/69189013
+* https://stackoverflow.com/questions/64690983/web-api-key-is-not-generated-in-firebase-while-creating-a-new-project-as-stated
+
+* https://dieptheanh.medium.com/react-authentication-with-firebase-and-unit-testing-35f6958e5f7a
+
+* https://stackoverflow.com/a/69189013
 
 https://firebase.google.com/docs/auth/web/start
 
