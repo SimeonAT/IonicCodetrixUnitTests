@@ -1,6 +1,6 @@
 # Ionic Codetrix Unit Tests Demo
 
-A short demonstration on how unit tests can be written for code that uses the [Codetrix's Capacitor GoogleAuth Plugin](https://github.com/CodetrixStudio/CapacitorGoogleAuth) for implementing Google OAuth with Firebase.
+A short demonstration on how unit tests can be written for code that uses the [Codetrix Capacitor GoogleAuth Plugin](https://github.com/CodetrixStudio/CapacitorGoogleAuth) for implementing Google OAuth with Firebase.
 
 This project is written in React and Typescript. All source files reside in the `unit-tests-demo` directory. All unit tests reside in the `unit-tests-demo/src/tests` directory.
 
