@@ -7,7 +7,7 @@ const Home: React.FC = () => {
     <IonPage>
       <IonHeader>
         <IonToolbar>
-          <IonTitle>Codetrix Capacitor Access Token Issue</IonTitle>
+          <IonTitle>Codetrix Capacitor Google Auth Unit Tests Demo</IonTitle>
         </IonToolbar>
       </IonHeader>
       <IonContent fullscreen>
