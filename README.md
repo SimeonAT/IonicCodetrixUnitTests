@@ -22,6 +22,11 @@ npm run test.unit.silent
 
 to run the unit tests.
 
+If you would like to see the error messages that appear when running the tests, you can run
+```bash
+npm run test.unit
+```
+
 ### Running in your Browser
 
 In order to run this web application in your browser, you will first need to add in the API keys for your Firebase project.
