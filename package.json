@@ -4,7 +4,11 @@
   "description": "",
   "main": "index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "cd unit-tests-demo && npm run dev",
+    "test.unit": "cd unit-tests-demo && npm run test.unit",
+    "test.unit.silent": "cd unit-tests-demo && npm run test.unit.silent",
+    "lint": "cd unit-tests-demo && npm run lint",
+    "installs": "npm install && cd unit-tests-demo && npm install"
   },
   "author": "",
   "license": "ISC",
