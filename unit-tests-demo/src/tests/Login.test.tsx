@@ -44,13 +44,13 @@ vi.mock('firebase/auth', () => {
 });
 
 test('OAuth login workflow occurs', async () => {
-  const mockSetUser = vi.fn(() => {});
+  const mockContext = {
+    user: null,
+    setUser: vi.fn(() => {}),
+  }
 
   render(
-    <Context.Provider value={{
-      user: null,
-      setUser: mockSetUser,
-    }}>
+    <Context.Provider value={mockContext}>
       <Login />
     </Context.Provider>
   );

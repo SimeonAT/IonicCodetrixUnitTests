@@ -79,11 +79,13 @@ test('No profile picture', async () => {
 });
 
 test('User logs out', async () => {
+  const mockContext = {
+    user: mockUser,
+    setUser: vi.fn(() => {}),
+  }
+
   render(
-    <Context.Provider value={{
-      user: mockUser,
-      setUser: vi.fn(() => {}),
-    }}>
+    <Context.Provider value={mockContext}>
       <Dashboard />
     </Context.Provider>
   );
