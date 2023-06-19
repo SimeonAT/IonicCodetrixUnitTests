@@ -43,30 +43,7 @@ vi.mock('firebase/auth', () => {
   };
 });
 
-test('Oauth login failure', async () => {
-  window.alert = vi.fn(() => {});
-
-  render(
-    <Context.Provider value={{
-      user: null,
-      setUser: vi.fn(() => {}),
-    }}>
-      <Login />
-    </Context.Provider>
-  );
-
-  fireEvent.click(
-    screen.getByText('OAuth Login')
-  );
-
-  await waitFor(() => {
-    expect(window.alert).toHaveBeenCalled();
-  });
-
-  return;
-});
-
-test('Successful OAuth Login', async () => {
+test('OAuth login workflow occurs', async () => {
   const mockSetUser = vi.fn(() => {});
 
   render(

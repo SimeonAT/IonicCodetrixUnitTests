@@ -16,7 +16,6 @@ export default function Login(){
         .catch((error) => {
           context?.setUser(null);
           console.error(error);
-          window.alert('Login failed');
           return;
         });
       }}>
